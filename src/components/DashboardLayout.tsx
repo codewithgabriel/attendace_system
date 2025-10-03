@@ -1,19 +1,17 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { 
-  GraduationCap, 
-  BookOpen, 
-  Users, 
-  UserPlus, 
-  PlusCircle, 
-  BarChart3, 
+import {
+  GraduationCap,
+  BookOpen,
+  Users,
+  UserPlus,
+  PlusCircle,
+  BarChart3,
   LogOut,
-  Home,
-  Calendar,
-  Settings
+  Home
 } from "lucide-react";
 
 interface DashboardLayoutProps {
